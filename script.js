@@ -3,7 +3,7 @@ document.getElementById('next_year').innerHTML = new Date().getFullYear() + 1;
 const start_time = new Date(Date.UTC(2025, 6, 14, 4, 0, 0, 0));
 const end_time = new Date(Date.UTC(2025, 6, 24, 4, 0, 0, 0));
 const rsvp_href = 'https://forms.hackclub.com/t/rF74MMzcKxus';
-const submit_href = 'https://example.com';
+const submit_href = 'https://forms.hackclub.com/t/n7W2rgweNQus';
 
 function update_time_remaining () {
   const now = new Date;
